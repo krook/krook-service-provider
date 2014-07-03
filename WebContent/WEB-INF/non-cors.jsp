@@ -1,0 +1,1 @@
+<span><%= request.getAttribute("msg") %></span>

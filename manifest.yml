@@ -1,0 +1,8 @@
+applications:
+- name: krook-service-provider
+  memory: 512M
+  host: krook-service-provider
+  domain: mybluemix.net
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  services: {
+    }
